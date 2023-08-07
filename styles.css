@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Quicksand:wght@600&display=swap');
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.word {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(10px);
+    margin: 0 5px;
+    animation-name: fadeInBlur;
+    animation-duration: 0.3s; 
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.style {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+    color: white;
+    text-align: justify;
+}
+
+@keyframes fadeInBlur {
+    to {
+        opacity: 1;
+        filter: blur(0);
+    }
+}

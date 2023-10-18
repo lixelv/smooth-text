@@ -2,11 +2,18 @@
 
 body {
     display: flex;
-    height: 100vh;
-    align-items: center;
     justify-content: center;
-    background-color: black;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('D:/Downloads/61208.jpg');
+    background-color: rgba(0, 0, 0, 0.5);
 }
+
+.shit {
+    opacity: 1;
+}
+
 
 .word {
     display: inline-block;
@@ -22,10 +29,30 @@ body {
 .style {
     font-family: 'Poppins', sans-serif;
     font-family: 'Quicksand', sans-serif;
-    font-size: 2em;
+    font-size: 1em;
     color: white;
     text-align: justify;
 }
+
+span {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    color: white;
+    text-align: justify;
+}
+
+.rounded-rectangle {
+    display: flex;
+    width: 80%;
+    padding: 50px;
+    background-color: #060606;
+    border-radius: 10px;
+    background-color: rgba(6, 6, 6, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
 
 @keyframes fadeInBlur {
     to {
